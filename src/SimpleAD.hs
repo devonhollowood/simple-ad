@@ -5,8 +5,9 @@ module SimpleAD
 
 import Data.Ratio (numerator, denominator)
 
+infixr 0 `at`
 at :: Num a => (AD a -> AD a) -> a -> (a, a)
-at f x = unAD . f $ AD (x, 1)
+f `at` x = unAD . f $ AD (x, 1)
 
 newtype AD a = AD { unAD :: (a, a) }
 
