@@ -1,7 +1,7 @@
 # simple-ad
 _Simple Automatic Differentiation_
 
-This is a mostly-for-fun automatic differentiator. Import this library and use the `at` function to simultaneously evaluate an analytic function and its derivative at a point. This is, of course, subject to the precision of the given point's type, so don't expect infinitely precise answers when using things like Doubles (see: anything involving `pi` in the examples below).
+This is a mostly-for-fun automatic differentiator. Import this library and use the `at` function to simultaneously evaluate an analytic function and its derivative at a point. This is, of course, subject to the precision of the given point's type, so don't expect infinitely precise answers when using things like Doubles (see: anything involving `pi` in the examples below). For an much-more-fully featured automatic differentiation library, see [ad](https://hackage.haskell.org/package/ad).
 
 Examples:
 
